@@ -1,37 +1,72 @@
-
-
-.home{
-    text-align: center;
-
+.home {
+  text-align: center;
 }
-.home img{
-    display: block;
+.home img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-
 .searchBar {
-    padding: 0.5rem;
-    margin: 1rem auto;
-    display: block;
-    width: 40%;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 40%;
 }
 
 .listWrapper {
-    align-items: center;
+  align-items: center;
   justify-content: center;
   display: flex;
 }
 
 .productWrapper {
-    margin: 20px;
+  margin: 20px;
 }
-.productWrapper img{
-    width: 200px;
-    height: 200px;
+.productWrapper img {
+  width: 200px;
+  height: 200px;
 }
-.productWrapper p{
-    text-align: center;
+.productWrapper p {
+  text-align: center;
+}
+
+.cookieImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 660px;
+}
+
+.homeImage {
+  width: 500px;
+  height: 400px;
+  margin-left: 450px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  justify-content: center;
+
+  /* justify-content: center; */
+}
+
+h4 {
+  text-align: center;
+  color: rgb(44, 190, 190);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  text-align: center;
+  color: rgb(18, 131, 131);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lightmode {
+  background-color: black;
+  color: white;
+}
+
+.darkmode {
+  background-color: white;
+  color: black;
 }

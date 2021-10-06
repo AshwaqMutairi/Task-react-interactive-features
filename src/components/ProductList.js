@@ -10,10 +10,21 @@ export default function ProductList() {
 
   // let filterdArray = products.filer(product => product.)
 
-  const productList = products
+  // const productList = products
+  //   .filter((product) => product.name.includes(query))
+  //   .map((product) => <ProductItem product={product} key={product.id} />);
 
-    .filter((product) => product.name.includes(query))
-    .map((product) => <ProductItem product={product} key={product.id} />);
+  const productList = products
+    .filter((product) =>
+      product.name.toLocaleLowerCase().includes(query.toLocaleLowerCase())
+    )
+    .map((product) => (
+      <ProductItem
+        product={product}
+        setCookie={props.setCookie}
+        key={product.id}
+      />
+    ));
 
   return (
     <>
